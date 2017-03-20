@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Food Processing Chain</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/icono.min.css"> 
+  <link href="css/boot-business.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <style>
+  
+    .row.content {height: 1500px}
+
+	.nav nav-tabs {
+	  color: #1C86EE;
+	}
+	
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+	  
+	  
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">FPC</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Settings</a></li>s
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><img src="#" class="profile-image img-circle">Username</a></li>
+      <li><a href="#"><span class="small icono-signOut"></span>Logout</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<ul class="nav nav-tabs">
+  <li class="active"><a href="#">Cooking</a></li>
+  <li><a href="#">Agriculture</a></li>
+  <li><a href="#">Market</a></li>
+</ul>
+
+<br>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+      
+      <ul class="nav nav-pills nav-stacked">
+	  
+        <li class="active">
+		<a href="#demo" class="btn" data-toggle="collapse">Recipe 1</a>
+		<div id="demo" class="collapse">
+		 <ul class="nav nav-pills nav-stacked">
+		 <li><a href="#section3">Recipe 1.2</a></li>
+		 <li><a href="#section3">Recipe 1.2</a></li>
+		 </ul>
+		</div>
+		</li>
+		
+          <li class="active">
+		<a href="#demo2" class="btn" data-toggle="collapse">Recipe 2</a>
+		<div id="demo2" class="collapse">
+		 <ul class="nav nav-pills nav-stacked">
+		 <li><a href="#section3">Recipe 2.2</a></li>
+		 <li><a href="#section3">Recipe 2.2</a></li>
+		 </ul>
+		</div>
+		</li>
+		
+          <li class="active">
+		<a href="#demo3" class="btn" data-toggle="collapse">Recipe 3</a>
+		<div id="demo3" class="collapse">
+		 <ul class="nav nav-pills nav-stacked">
+		 <li><a href="#section3">Recipe 3.2</a></li>
+		 <li><a href="#section3">Recipe 3.2</a></li>
+		 </ul>
+		</div>
+		</li>
+      </ul><br>
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search ">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </span>
+      </div>
+    </div>
+
+    <div class="col-sm-9">
+		
+      <h4><small>Recipe</small></h4>
+      <hr>
+      <h2>I Love Food</h2>
+	  <br>
+	  <div class = "container-fluid"> <iframe width="320" height="250" src="href1"> </iframe> </div>
+	  <br>
+      <h5><span class="glyphicon glyphicon-time"></span> Post by Manit Kapoor, Sep 22, 2015.</h5>
+      <p> Guys you have to add content please add and help me.</p>
+      <br><br>
+      
+
+      <h4>Leave a Comment:</h4>
+      <form role="form">
+        <div class="form-group">
+          <textarea class="form-control" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br><br>
+      
+      <p class = "badge" > Comments </p><br>
+      
+      <div class="row">
+        <div class="col-sm-2 text-center">
+          <img src="bandmember.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Jai <small>Sep 29, 2015, 9:12 PM</small></h4>
+          <p>we need to make UI</p>
+          <br>
+        </div>
+        <div class="col-sm-2 text-center">
+          <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+        </div>
+        <div class="col-sm-10">
+          <h4>Nikhil <small>Sep 25, 2015, 8:25 PM</small></h4>
+          <p>I am so sad for no OD.</p>
+          <br>
+          <p><span class="badge">1</span> Comment:</p><br>
+          <div class="row">
+            <div class="col-sm-2 text-center">
+              <img src="bird.jpg" class="img-circle" height="65" width="65" alt="Avatar">
+            </div>
+            <div class="col-xs-10">
+              <h4>Brinda <small>Sep 25, 2015, 8:28 PM</small></h4>
+              <p>Me too</p>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid">
+  <p>Manit Kapoor is a awesome</p>
+</footer>
+
+</body>
+</html>
